@@ -6,7 +6,8 @@ import java.util.regex.Pattern;
 
 public class CommonValidator {
 
-    public static final Pattern PHONE_NUMBER_PATTERN = Pattern.compile("^\\+(998)(20|22|33|50|71|77|90|94)(\\d{7})$");
+    public static final Pattern PHONE_NUMBER_PATTERN = Pattern
+            .compile("^\\+(998)(2[02]|33|50|7[17]|9[^26])(\\d{7})$");
 
     public static void main(String[] args) {
         String[] testCases  = {

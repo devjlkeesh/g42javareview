@@ -24,11 +24,11 @@ public class NewNIOExample {
             File file2 = new File("files/readme.txt");
             FileReader fileReader = new FileReader(file2);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-            List<String> strings = bufferedReader.lines().toList();
+//            List<String> strings = bufferedReader.lines().toList();
             String fileData = "";
-            for ( String string : strings ) {
-                fileData = fileData + "\n" + string;
-            }
+//            for ( String string : strings ) {
+//                fileData = fileData + "\n" + string;
+//            }
             System.out.println(fileData);
 
             // Files.readString(Paths.get("sdf"));
