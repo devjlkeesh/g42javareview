@@ -11,14 +11,16 @@ public class TrashBin {
     public static void main(String[] args) {
         Faker faker = new Faker();
 
-        /*Name name = faker.name();
+        /*
+        Name name = faker.name();
         Address address = faker.address();
         Number number = faker.number();
         PhoneNumber phoneNumber = faker.phoneNumber();
         Lorem lorem = faker.lorem();
         Animal animal = faker.animal();
         Color color = faker.color();
-        Company company = faker.company();*/
+        Company company = faker.company();
+        */
 
         NameGenerator nameGenerator = new NameGenerator();
         NumberGenerator numberGenerator = new NumberGenerator();
