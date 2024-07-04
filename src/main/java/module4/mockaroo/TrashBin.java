@@ -7,7 +7,7 @@ import module4.mockaroo.enums.FieldSubType;
 import module4.mockaroo.generators.NameGenerator;
 import module4.mockaroo.generators.NumberGenerator;
 
-public class App {
+public class TrashBin {
     public static void main(String[] args) {
         Faker faker = new Faker();
 
@@ -24,6 +24,7 @@ public class App {
         NumberGenerator numberGenerator = new NumberGenerator();
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < 100; i++) {
+            // "age:AGE:min:max"
             var generateIdDto = new GenerateFieldDto("id", FieldSubType.RANDOM_INT, 1, 100000);
             FieldDto id = numberGenerator.generateNumber(generateIdDto);
 
